@@ -1,4 +1,4 @@
-package ru.inno.ssd-lab-06;
+package ru.inno.ssdlab06;
 
 public class CurrencyConverter {
 
