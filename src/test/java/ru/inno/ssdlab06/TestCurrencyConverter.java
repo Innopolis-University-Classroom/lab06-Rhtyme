@@ -20,15 +20,15 @@ public class TestCurrencyConverter {
      ByteArrayOutputStream bos = new ByteArrayOutputStream();
      System.setOut(new PrintStream(bos));
 
-     CurrencyConverter currency = CurrencyConverter();
+     CurrencyConverter currency = new CurrencyConverter();
 
      //converting usd to rouble
 
-     Float convertedUsd = currency.convert(1, "rouble", "usd")
+     float convertedUsd = currency.convert(1, "rouble", "usd")
 
-     boolean isGreaterThanOne = convertedUsd > 1.0;
+     boolean isGreaterThanOne = convertedUsd > 1.f;
 
-     boolean isLessThanTwenty = convertedUsd < 20.0;
+     boolean isLessThanTwenty = convertedUsd < 20.f;
 
      // action
      // Main.main(null);
