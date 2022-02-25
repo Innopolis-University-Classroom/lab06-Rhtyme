@@ -1,6 +1,6 @@
-package com.example.project;
+package ru.inno.ssd-lab-06;
 
-public class Hello {
+public class Main {
 
 	public static void main(final String[] args) {
 		System.out.println("Hello world!");

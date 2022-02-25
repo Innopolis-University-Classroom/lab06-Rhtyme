@@ -1,4 +1,4 @@
-package com.example.project;
+package ru.inno.ssd-lab-06;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
